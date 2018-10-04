@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+
+html, body{
+   font-family: 'Open Sans', sans-serif !important;
+}
+body {
+   background-image: url("paper.gif");
+   background-color: #D5D8DC;
+}
+ul.list-link> a {
+    color: #524d4d;
+    font-size: 14px;
+font-weight: 400;
+text-decoration:none;
+}
+
+ul.list-link> a :hover {
+   opacity: .8;
+}
+
+ul.list-link> a:hover .list-group-item {
+    background-color: #4b4b4b;
+   color:white;
+}

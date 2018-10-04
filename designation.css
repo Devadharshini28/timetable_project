@@ -1,0 +1,39 @@
+
+body {margin:0;}
+
+.icon-bar {
+    width: 100%;
+    background-color: #464646;
+	color: white;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 10%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #ffffff;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#464646;
+   color: white;
+   text-align: center;
+}
+
